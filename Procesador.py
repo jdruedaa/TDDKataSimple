@@ -1,9 +1,13 @@
 class Procesador:
+
+
+    respuesta = []
+
     def contar(self,cadena):
-        pass
+        return self.respuesta
     def minimo(self,cadena):
-        pass
+        return self.respuesta
     def maximo(self,cadena):
-        pass
+        return self.respuesta
     def promedio(self,cadena):
-        pass
+        return self.respuesta
