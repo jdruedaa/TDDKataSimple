@@ -50,5 +50,18 @@ class ProcesadorTest(TestCase):
     def test_respuestadosnumeros(self):
         self.assertEqual(Procesador().respuesta("1,2"), [2, 1, 2, 1.5], "Cadena 2")
 
+    def test_contarnnumeros(self):
+        self.assertEqual(Procesador().contar("1,2,3,4,5,6,7,8,9"), 9, "Cadena N")
 
+    def test_minimonnumeros(self):
+        self.assertEqual(Procesador().minimo("1,2,3,4,5,6,7,8,9"), 1, "Cadena N")
+
+    def test_maximonnumeros(self):
+        self.assertEqual(Procesador().maximo("1,2,3,4,5,6,7,8,9"), 9, "Cadena N")
+
+    def test_promedionnumeros(self):
+        self.assertEqual(Procesador().promedio("1,2,3,4,5,6,7,8,9"), 5, "Cadena N")
+
+    def test_respuestannumeros(self):
+        self.assertEqual(Procesador().respuesta("1,2,3,4,5,6,7,8,9"), [9, 1, 9, 5], "Cadena N")
 
