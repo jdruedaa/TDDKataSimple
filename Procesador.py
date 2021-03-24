@@ -1,13 +1,28 @@
 class Procesador:
 
+    def contar(self, cadena):
+        if cadena == "":
+            return 0
+        else:
+            return int(cadena)
 
-    respuesta = []
+    def minimo(self, cadena):
+        if cadena == "":
+            return 0
+        else:
+            return int(cadena)
 
-    def contar(self,cadena):
-        return self.respuesta
-    def minimo(self,cadena):
-        return self.respuesta
-    def maximo(self,cadena):
-        return self.respuesta
-    def promedio(self,cadena):
-        return self.respuesta
+    def maximo(self, cadena):
+        if cadena == "":
+            return 0
+        else:
+            return int(cadena)
+
+    def promedio(self, cadena):
+        if cadena == "":
+            return 0
+        else:
+            return int(cadena)
+
+    def respuesta(self, cadena):
+        pass
