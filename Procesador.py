@@ -25,4 +25,8 @@ class Procesador:
             return int(cadena)
 
     def respuesta(self, cadena):
-        pass
+        if cadena == "":
+            respuesta = []
+        else:
+            respuesta = [self.contar(cadena), self.minimo(cadena), self.maximo(cadena), self.promedio(cadena)]
+        return respuesta
